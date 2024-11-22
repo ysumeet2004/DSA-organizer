@@ -1,0 +1,122 @@
+/* General Styles (unchanged) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+.container {
+    padding: 10px;
+    width: 300px;
+    overflow-y: auto;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #ff8c42;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #ff6e1b;
+}
+
+/* Topic Section */
+.topic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #33334d;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.topic:hover {
+    background: #44445e;
+}
+
+.topic h4 {
+    font-size: 16px;
+    margin: 0;
+    flex: 1;
+}
+
+/* Styled + Button */
+.topic button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.topic button:hover {
+    background-color: #45a045;
+    transform: scale(1.2);
+}
+
+/* Link List Styles */
+.link-list {
+    list-style: none;
+    margin: 10px 0 0 20px;
+    padding: 0;
+    display: block;
+}
+
+.link-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.link-list a {
+    color: #ffa42a;
+    text-decoration: none;
+    flex: 1;
+}
+
+.link-list a:hover {
+    text-decoration: underline;
+}
+
+.link-list button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+}
