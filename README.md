@@ -1,5 +1,6 @@
 # DSA-organizer
-This Chrome extension helps organize your LeetCode questions by DSA topics for easy revision. It automatically fetches the current page’s LeetCode question URL and categorizes it under the appropriate topic. Questions are stored locally for future use, allowing you to add, delete, and review them whenever needed.
+How to install -> https://www.youtube.com/watch?v=XaEsS457hRE
+Tutorial -> https://www.youtube.com/watch?v=Nr-qInS5aFk
 # LeetCode DSA Question Organizer Chrome Extension
 
 This Chrome extension helps you organize your LeetCode questions based on various DSA (Data Structures and Algorithms) topics for easy revision. It automatically fetches the current page’s LeetCode question URL and stores it under the appropriate DSA topic. Questions are stored locally for future use, allowing you to add, delete, and review them whenever needed.
